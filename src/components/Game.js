@@ -18,8 +18,8 @@ const Game = () => {
 
     const SetLevel = (levelNum) => {
         level = levelNum;
-        setLevel(level)
-        Restart()
+        setLevel(level);
+        Restart();
     }
 
     const Restart = () => {
